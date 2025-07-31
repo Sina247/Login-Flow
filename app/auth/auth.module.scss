@@ -1,0 +1,33 @@
+.auth {
+	display: flex;
+	padding: 1rem;
+	height: 100dvh;
+	align-items: center;
+	box-sizing: border-box;
+	justify-content: center;
+	background: linear-gradient(135deg, #cce4f7, #8bbde9);
+}
+
+.form {
+	width: 100%;
+	gap: 1.2rem;
+	display: flex;
+	max-width: 400px;
+	border-radius: 12px;
+	padding: 2rem 2.5rem;
+	box-sizing: border-box;
+	flex-direction: column;
+	background-color: #fff;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+	margin: 0;
+	color: #333;
+	font-size: 1.8rem;
+	text-align: center;
+
+	@media (max-width: 480px) {
+		font-size: 1.5rem;
+	}
+}

@@ -1,0 +1,37 @@
+.dashboard {
+	display: flex;
+	padding: 1rem;
+	height: 100dvh;
+	margin: 0 auto;
+	padding: 2rem 3rem;
+	text-align: center;
+	align-items: center;
+	box-sizing: border-box;
+	flex-direction: column;
+	justify-content: center;
+	background: linear-gradient(135deg, #e4f7cc, #8be993);
+
+	h1 {
+		color: #00796b;
+		font-size: 1.8rem;
+		margin-bottom: 1rem;
+	}
+
+	p {
+		margin: 0;
+		color: #4f3737;
+		font-size: 1.8rem;
+	}
+
+	@media (max-width: 480px) {
+		padding: 1.5rem 1rem;
+
+		h1 {
+			font-size: 1.5rem;
+		}
+
+		p {
+			font-size: 1.5rem;
+		}
+	}
+}
