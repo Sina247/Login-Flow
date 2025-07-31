@@ -1,4 +1,4 @@
-# 🔐 Login Flow
+# 🔑 Login Flow
 
 A responsive and secure login flow built with **Next.js**, **TypeScript** and **SCSS Modules**. It validates Iranian mobile numbers, handles authentication via API and redirects users to a dashboard with persisted login state.
 
